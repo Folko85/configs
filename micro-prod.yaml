@@ -22,9 +22,9 @@ jasypt:
   encryptor:
     bean: encryptorBean
 
-logging:
-  level:
-    org.atmosphere: warn
+vaadin:
+  productionMode: false
+  compatibilityMode: true
     
 external:
   mail:
