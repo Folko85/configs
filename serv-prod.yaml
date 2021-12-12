@@ -30,7 +30,7 @@ spring:
 registration:
   confirm:
     need: true
-    url: "http://www.zeronenetwork.design/registration-success"
+    url: "http://localhost/registration-success"
 
 management:
   endpoints:
