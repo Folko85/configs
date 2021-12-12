@@ -93,6 +93,7 @@ cors:
     - http://127.0.0.1:8086/
     - http://127.0.0.1:8080/
     - http://localhost/
+    - http://localhost
     - http://127.0.0.1/
     - http://195.234.208.58/
     - http://localhost:80/
