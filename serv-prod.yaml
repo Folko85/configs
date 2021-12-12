@@ -19,9 +19,8 @@ spring:
   redis:
     host: redis
     port: 6379
-    password: ENC(X2BUlR94IUPOPa1D7mGtbSnP6cbaWPMT)
   rabbitmq:
-    host: 147.78.64.57
+    host: localhost
     port: 5672
     username: admin
     password: admin
