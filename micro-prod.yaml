@@ -22,9 +22,15 @@ jasypt:
   encryptor:
     bean: encryptorBean
 
-vaadin:
-  productionMode: false
-  compatibilityMode: true
+services:
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
+    username: admin
+    password: admin
+    exchange: support
+    routingKey: support
+    queue: support
     
 external:
   mail:
