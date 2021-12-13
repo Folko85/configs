@@ -16,16 +16,19 @@ spring:
   servlet:
     multipart:
       max-file-size: -1
+      
+services:      
   redis:
     host: redis
     port: 6379
   rabbitmq:
-    host: localhost
+    host: rabbitmq
     port: 5672
     username: admin
     password: admin
-
-
+    exchange: support
+    routingKey: support
+    queue: support
 
 registration:
   confirm:
